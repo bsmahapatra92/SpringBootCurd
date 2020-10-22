@@ -1,0 +1,6 @@
+applications:
+- name: SpringBootCURD
+  memory: 1024M
+  path: target/SpringBootCURD-1.0.jar
+  services:
+  - mysqldb
